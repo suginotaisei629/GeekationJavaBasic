@@ -13,19 +13,19 @@ public class ForWhile {
 				System.out.println(num);
 			}
 		}
-			
-	String[] languages = {"Ruby", "Golang", "Java", "Python", "TYpescript", "HTML", "Javascript"};
+		
+		String[] languages = {"Ruby", "Golang", "Java", "Python", "TYpescript", "HTML", "Javascript"};
 		for (String lang : languages) {
-		switch (lang) {
-			case "Java":
-				System.out.println("現在学習中の言語はJavaです。");
-			 continue;
-			case "HTML":
-				System.out.println("HTMLはプログラミング言語ではありません。");
-			 break;
-			 default:
-		    	 System.out.println(lang);
-		     break;
+			switch (lang) {
+			    case "Java":
+			    	System.out.println("現在学習中の言語はJavaです。");
+			    	continue;
+			    case "HTML":
+			    	System.out.println("HTMLはプログラミング言語ではありません。");
+			    	break;
+			    default:
+			    	System.out.println(lang);
+			    	break;
 			 }
 		 }
 	}
