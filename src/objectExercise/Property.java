@@ -4,13 +4,13 @@ public class Property {
   private String name;
   private String type;
   private String price;
-  private String Floor;
+  private String floor;
   
-  Property (String name, String type, String price, String Floor) {
+  Property (String name, String type, String price, String floor) {
     this.name = name;
     this.type =type;
     this.price = price;
-    this.Floor = Floor;
+    this.floor = floor;
   }
   
   public String getName( ) {
@@ -38,11 +38,11 @@ public class Property {
   }
   
   public String getFloor() {
-	  return Floor;
+	  return floor;
   }
   
-  public void setFloor(String Floor) {
-	  this.Floor = Floor;
+  public void setFloor(String floor) {
+	  this.floor = floor;
   }
   
   
@@ -50,6 +50,6 @@ public class Property {
     System.out.println("物件名 : " + this.name);
     System.out.println("物件所有者名 :" + this.type);
     System.out.println("物件種別 :" + this.price);
-    System.out.println("物件価格 :" + this.Floor);
+    System.out.println("物件価格 :" + this.floor);
   }
 }

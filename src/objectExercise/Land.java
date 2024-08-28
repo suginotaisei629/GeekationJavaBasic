@@ -1,24 +1,24 @@
 package objectExercise;
 
 public class Land  extends Property {
-  private String A ;
+  private String a ;
   
-  Land(String name, String type, String price, String Floor ,String A) {
-    super (name,type,price,Floor);
-    this.A = A;
+  Land(String name, String type, String price, String floor ,String a) {
+    super (name,type,price,floor);
+    this.a = a;
   }
   
   public String getA() {
-	  return A;
+	  return a;
   }
   
-  public void setA(String A) {
-	  this.A = A;
+  public void setA(String a) {
+	  this.a = a;
   }
   
   public void greeting() {
     super.greeting();
-    System.out.println("広さ :" + this.A);
+    System.out.println("広さ :" + this.a);
     }
   }
 
